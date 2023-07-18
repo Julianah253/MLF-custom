@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body .container {
+  background-color: #000;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+body .container .containerTwo img {
+  margin-top: -250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+body .container .containerTwo h2 {
+  color: #fff;
+  font-family: "Marcellus SC", Sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.2em;
+  cursor: pointer;
+  animation: animate 1s ease-in-out infinite alternate;
+  transition: 0.5s;
+  text-align: center;
+}
+body .container .containerTwo h2 span {
+  color: #ff5400;
+  animation: animate 1s ease-in-out infinite alternate;
+  transition: 0.5s;
+}
+body .container .containerTwo h2 span:hover {
+  cursor: pointer;
+}
+body .container .containerTwo p {
+  color: white;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 27px;
+  line-height: 2em;
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+body .container .containerTwo .a_tags {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+body .container .containerTwo .a_tags i {
+  font-size: 50px;
+  color: #fff;
+  animation: animate 1s ease-in-out infinite alternate;
+  font-weight: 100;
+  transition: all 0.4s;
+}
+body .container .containerTwo .a_tags i:hover {
+  color: #ff5400;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+@keyframes animate {
+  from {
+    text-shadow: #ff5400;
+  }
+  to {
+    text-shadow: 0 0 30px #289aab, 0 0 10px #ff5400;
+  }
+}/*# sourceMappingURL=style.css.map */
